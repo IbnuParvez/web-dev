@@ -13,3 +13,16 @@ background-color: white;
 background-color: lightblue;
 color: blue;
 }
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px; 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border-top: 2px solid #555;
+}
