@@ -1,0 +1,15 @@
+* {
+background-color: grey;
+color: black;
+}
+
+#personal-info {
+border-radius: 10px;
+margin: 20px;
+background-color: white;
+}
+
+.trial {
+background-color: lightblue;
+color: blue;
+}
