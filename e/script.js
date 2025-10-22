@@ -1,5 +1,5 @@
 function checkAge(){
-let age = Number(document.getElementById("guestAge").value);
+let age = Number(prompt("WHat is your age?"));
 const display = document.getElementById("displayAge");
 if (age >= 18){
  	display.textContent = `You are an adult as your age is ${age}`;
@@ -9,7 +9,7 @@ if (age >= 18){
 }
 
 const checkName = ()  => {
-	let name = document.getElementById("guestName").value;
+	let name = prompt("What is your name?");
 	const display = document.getElementById("displayName");
 	display.textContent = `You are called ${name}`;
 }
